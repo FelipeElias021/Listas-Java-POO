@@ -9,7 +9,7 @@ import java.util.Scanner;
 public class Ex003 {
     public static void main(String[] args) {
         String nome;
-        int idade;
+        int idade, qtdDiasAno = 365, resultado;
 
         try (Scanner entrada = new Scanner(System.in)) {
             do {
@@ -22,7 +22,7 @@ public class Ex003 {
             System.out.print("Nome: ");
             nome = entrada.nextLine();
         }   
-
-        System.out.println("Olá " + nome +", você tem aproximadamente " + idade*356 + " dias de vida");
+        resultado = idade*qtdDiasAno;
+        System.out.println("Olá " + nome +", você tem aproximadamente " + resultado + " dias de vida");
     }
 }

@@ -9,17 +9,17 @@ DistanciaEuclidiana = V(y2 - y1)^2 + (x2 - x1)^2
 
 public class Ex011 {
     public static void main(String[] args) {
-        int x1, y1, x2, y2;
+        double x1, y1, x2, y2;
 
         try (Scanner entrada = new Scanner(System.in)) {
             System.out.print("X do ponto A: ");
-            x1 = entrada.nextInt();
+            x1 = entrada.nextDouble();
             System.out.print("Y do ponto A: ");
-            y1 = entrada.nextInt();
+            y1 = entrada.nextDouble();
             System.out.print("X do ponto B: ");
-            x2 = entrada.nextInt();
+            x2 = entrada.nextDouble();
             System.out.print("Y do ponto B: ");
-            y2 = entrada.nextInt();
+            y2 = entrada.nextDouble();
         }
 
         //distanciaRaiz = Math.pow(y2-y1, 2) + Math.pow(x2-x1, 2);
