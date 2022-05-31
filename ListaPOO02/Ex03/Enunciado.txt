@@ -1,0 +1,42 @@
+Utilize a implementação de Pessoa e Endereço feita em sala de aula e adicione as
+seguintes classes ao relacionamento:
+
+Produto
+- double codigo
+- String nome
++ String consultaNome()
+
+Pessoa
+- String nome
+- Endereco endereco
+- String numero
++ Endereco ConsultaEndereco
++ String ConsultaNome
+
+Endereco
+- String logradouro
+- String cidade
+- String estado
++ String ConsultaLogradouro
+
+Compra
+- Pessoa pessoa
+- Produto produto
++ void Comprar(Pessoa pessoa, Produto produto)
++ String VerificarCompra
+
+
+A classe Compra vai conter um objeto do tipo Pessoa e outro do tipo Produto. É
+possível comprar, passando como parâmetro dois objetos do tipo Pessoa e outro do tipo
+Produto.
+Em seguida, desenvolva a classe Principal da seguinte forma:
+- Inicialmente, a classe deve criar 2 objetos do tipo Produto (crie os objetos com
+as informações que desejar)
+- O usuário faz um cadastro (criando um objeto do tipo Pessoa)
+- Logo após, o usuário seleciona entre os 2 produtos cadastrados anteriormente
+- Dependendo da escolha, é acessado o método comprar da classe Compra, e
+passado como parâmetro o objeto Pessoa que ele cadastrou e o do Produto
+escolhido
+- Logo após, é exibido no console ao usuário uma mensagem de confirmação,
+exibindo o nome dele e do produto comprado (acesso ao método
+verificarCompra()) e finaliza a aplicação

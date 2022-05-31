@@ -1,0 +1,40 @@
+Utilize a implementação das classes Pessoa e Dado feitas em sala de aula e altere o
+programa de acordo com o que se pede a seguir:
+Crie a classe Endereco
+ Esta classe possui o nome da rua, um número na rua, uma cidade, um estado,
+um CEP e um bairro
+ Quando um endereço é criado, deve ser informado o nome da rua, o número
+na rua e a cidade
+ Crie os métodos de acesso da classe (getters e setters)
+Crie a classe Data
+ Esta classe possui um dia, um mês e um ano
+ Ao criar uma data, todos os atributos devem ser informados (dia, mês e ano)
+ Crie os métodos de acesso da classe (getters e setters)
+Altere a classe Pessoa, onde:
+
+ Esta classe agora possui um nome, um sexo, uma data de nascimento
+(do tipo Data), um endereço (do tipo Endereco) e dois dados padrão (do
+tipo Dado – Dica: olhar slide 5) um de 6 lados (meuDadoDe6faces) e um
+de 8 lados (meuDadoDe8faces), que devem ser criados no momento da
+instanciação de uma Pessoa. Pense no método construtor da classe
+Pessoa, e analise os parâmetros de entrada deste método
+ Crie dois métodos para jogar respectivamente os dois dados de 6 e 8
+faces. Os métodos jogarDadoDe6Faces() e jogarDadoDe8Faces()
+deverão utilizar a classe Random do java.util para aleatoriamente gerar
+um número que representa a face obtida no lançamento do dado.
+ Crie os métodos de acesso da classe (getters e setters). Pense nos tipos de
+retorno dos métodos get e nos parâmetros de entrada dos métodos set
+
+Na classe Principal:
+Dois jogadores lançam ao mesmo tempo dois dados, um de 6 faces e outro de 8 faces. O
+jogador que obtiver a soma das faces dos dois dados, mais alta vence a rodada marcando
+um ponto. O jogo termina após uma melhor de 7 rodadas. Escreva um programa que
+simule este jogo de dados. Dica: use os métodos jogarDadoDe6Faces() e
+jogarDadoDe8Faces() para gerar os números resultantes dos lançamentos dos dados de
+cada um dos jogadores. A cada rodada de lançamento, o programa deverá mostrar o
+valor de cada dado jogado por cada um dos 2 jogadores e mostrar quem venceu a
+rodada. O jogador que obtiver mais rodadas vencidas vence o jogo. Realize este jogo
+para 6 pessoas diferentes, onde elas se enfrentaram de duas a duas, totalizando assim 3
+jogos distintos. Os nomes dos vencedores das três partidas deverão ser armazenados em
+um Vetor do tipo String, que será utilizado para imprimir o nome dos vencedores ao
+final do programa.

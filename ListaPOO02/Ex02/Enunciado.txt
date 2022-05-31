@@ -1,0 +1,38 @@
+No pacote entidade crie as seguintes classes : Ator, Diretor e Filme. 
+- Para a classe Ator defina os seguintes atributos: nome (String), idade (int), 
+n_oscars (int) (número deOscars conquistados). 
+- Para a classe Diretor defina os atributos: nome (String), ganhador_oscar (boolean), 
+principal_filme (Filme). 
+- Para a classe Filme defina o atributo titulo (String) e as referências : 
+diretor (Diretor), ator_principal (Ator),atriz_principal (Ator). 
+
+Crie um construtor na classe Diretor para deixar a inicialização
+de principal_filme para ser realizada através do método setPrincipalFilme. 
+
+No pacote controle crie a classe CadastroFilme para criar um diretor, um ator, uma atriz e um
+filme,
+Imprimir, em cada linha, a seguinte descrição para o filme: 
+título do filme,
+nome do diretor, 
+nome do ator principal, 
+nome da atriz principal. 
+
+Imprima, adicionalmente, uma descrição para o diretor contendo em cada linha: 
+nome do diretor,
+nome do principal filme. 
+
+Os dados das classes deverão ser privados e os métodos não auxiliares deverão ser públicos.
+
+A. Altere a classe CadastroFilme do exercício anterior para criar objetos e
+armazenar em arrays estáticos de cada uma das classes entidades os objetos
+criados. Crie 4 filmes com alguns diretores e atores repetidos. 
+Defina o método Filme buscaFilme (String titulo) e o método boolean insereFilme (Filme)
+que retorna false se já existir um filme com o título do novo filme. A classe
+CadastroFilme deverá verificar se o título do filme já foi cadastrado antes de
+solicitar a inserção do novo filme. Informe sucesso ou insucesso em cada
+inserção.
+
+b. Por fim, defina também um método para buscar diretores vencedores de oscars.
+Percorra o vetor de diretores e o método deverá imprimir na tela o nome do
+diretor, o nome do filme, o nome ator e da atriz principal do principal
+filme ganhador do oscar.

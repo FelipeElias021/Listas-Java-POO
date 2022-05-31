@@ -1,0 +1,14 @@
+Implemente em Java um programa para controle da situação dos alunos de Sistemas de
+Informação na disciplina de Programação Orientada a Objetos. Crie uma classe Aluno
+com os seguintes atributos: n° de matricula, nome, notaBimestre1, notaBimestre2, em
+seguida insira o construtor (que deverá conter estes 4 atributos) e métodos Get e Set
+para os mesmos. 
+Em seguida, crie a classe Principal que deverá conter o método main e
+será responsável por ler os 4 atributos de pelo menos 3 alunos utilizando o Scanner ou
+JOptionPane, e para cada leitura completa deverá criar um objeto do tipo Aluno, onde
+cada objeto Aluno criado deverá ser armazenados em um Arraylist <Aluno>, que
+representa uma lista de alunos. 
+Por fim, percorra a lista de alunos informando a situação
+dos alunos presentes na listaAlunos, caso a média aritmética entre notaBimestre1 e
+notaBimestre2 seja maior ou igual a 6.0, o programa deverá informar que o aluno está
+APROVADO, caso contrário informe REPROVADO.
